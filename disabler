@@ -1,0 +1,5 @@
+--[[
+Polar <3
+]]--
+
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v10,v11)local v12={};for v16=1, #v10 do v6(v12,v0(v4(v1(v2(v10,v16,v16 + 1 )),v1(v2(v11,1 + (v16% #v11) ,1 + (v16% #v11) + 1 )))%256 ));end return v5(v12);end local v8=game:GetService(v7("\227\214\213\22\227\169\209\23\210\198","\126\177\163\187\69\134\219\167"));local function v9()local v13=209 -(133 + 76) ;local v14;while true do if (v13==(1655 -(1594 + 61))) then v14={[1]={[v7("\39\196\56\192\255\55\196\37\203","\156\67\173\74\165")]=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector}};game:GetService(v7("\6\178\89\26\181\37\71\32\178\77\37\168\41\84\53\176\76","\38\84\215\41\118\220\70")).rbxts_include.node_modules[v7("\112\4\32\10\234\67","\158\48\118\66\114")].net.out._NetManaged.ScytheDash:FireServer(unpack(v14));break;end end end while true do local v15=1661 -(108 + 1553) ;while true do if (v15==(513 -(232 + 281))) then v9();wait(1253 -(976 + 277) );break;end end end
